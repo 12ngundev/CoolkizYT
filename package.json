@@ -1,1 +1,14 @@
-
+{
+  "name": "line-renewal-bot",
+  "version": "1.0.0",
+  "description": "LINE OA Renewal & Overdue Alert Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3"
+  }
+}
