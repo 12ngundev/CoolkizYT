@@ -6,8 +6,8 @@ const app = express();
 
 // 1. นำ Token จาก LINE Developers มาใส่ หรือตั้งใน Environment Variables บน Render
 const config = {
-  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN || 'ใส่_CHANNEL_ACCESS_TOKEN_ตรงนี้',
-  channelSecret: process.env.CHANNEL_SECRET || 'ใส่_CHANNEL_SECRET_ตรงนี้'
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN || 'tYpAg3lR5yK7Jl79ocuRtgTgqUXRlUguV7Jj/oSvNItz+DuR15EtIjH9nl4yDuFh27TlmICopzG8AFF9kgEpqjbRErwWv/f7WHtjmEZPM2x5dgavh4PoG8GpQiwJ3FNfTIohu54F/4eWrkgCQl8lDQdB04t89/1O/w1cDnyilFU=',
+  channelSecret: process.env.CHANNEL_SECRET || 'b1252cb72e130eddd38bc5423663d3b0'
 };
 
 const client = new line.Client(config);
